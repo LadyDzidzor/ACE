@@ -12,6 +12,86 @@
 
 /* #Panel
 ================================================== */
+/* Services section */
+
+/*-------------------------------------------------
+ =  Table of Css
+
+ 1.Import google fonts & basic style of template
+ 2.Header
+ 3.Isotope filtering
+ 4.Kenburn slider basic
+ 5.General
+ 6.testimonial section
+ 7.Team Sections
+ 8.services page
+ 9.collapse section
+ 10.career section
+ 11.Pricing section
+ 12.portfolio section
+ 13.video section
+ 14.clients section
+ 15.feature section
+ 16.News section
+ 17.Sidebar
+ 18.Subscribe section
+ 19.Statistic sections
+ 20.About sections
+ 21.Single Post
+ 22.Single Project
+ 23.Contact
+ 24.Footer
+ 25.Responsive part
+-------------------------------------------------*/
+
+
+/*------------------------------------------------- */
+/* =  Header
+ *------------------------------------------------- */
+
+
+
+
+/*------------------------------------------------- */
+/* =  collapse section */
+/*------------------------------------------------- */
+
+/*-------------------------------------------------*/
+/* =  Responsive Part
+/*-------------------------------------------------*/
+
+/* Services Button */
+
+.hello{
+	text-align: center;
+}
+
+.button7{
+	display:inline-block;
+	padding:0.7em 1.7em;
+	margin:0 0.3em 0.3em 0;
+	border-radius: 0.2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto', san-serif;
+	font-weight: 400;
+	color:#FFFFFF;
+	background-color: #3369ff;
+	box-shadow: inset 0 -0.6em 1em -0.35 rgba(0,0,0,0.17), inset 0.06em 2em -0.3em rgba(255,255,255,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+	text-align: center;
+	position: relative;
+}
+a.button7:active{
+	box-shadow: inset 0 0.6e, 2em -0.3em rgba(0,0,0,0.15), inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+
+@media all and (max-width:30em){
+	a.button7{
+		display: block;
+		margin: 0.4em auto;
+	}
+}
+
 
 
 #switch {
@@ -62,6 +142,7 @@ min-width: 70px;
 
 .button.small.color.switch {font-size: 12px;text-transform: none;width: 40px;margin: 5px 0px; font-weight: normal; font-family: 'Open Sans';
 text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important; letter-spacing: 0;}
+
 
 #hide {
 	position:absolute;
@@ -396,8 +477,9 @@ ul.slimmenu li ul {
 	z-index:10000;
 	left:10px;
 	top:10px;
-	/* background:url('../images/logo.png') no-repeat center center; */
-	background-size:146px 80px;
+	background:url('../images/gallery/ACE-t.png') no-repeat center center;
+	/* background-size:146px 80px; */
+	background-size:157px 99px;
 }
 
 
@@ -465,7 +547,7 @@ ul.slimmenu {
 ul.slimmenu li {
     position: relative;
     display: inline-block;
-	background:url('../images/line.png') 0 14px no-repeat;
+	/* background:url('../images/line.png') 0 14px no-repeat; */
 	background-size:15px 10px;
 	padding-left:20px;
 }
@@ -474,15 +556,14 @@ ul.slimmenu > li:first-child { border-left: 0 }
 ul.slimmenu > li:last-child { margin-right: 0 }
 ul.slimmenu li a {
     display: block;
-    color: #000;
+    color: #000000b3;
     padding: 10px 0px;
 	cursor:pointer;
     margin: 0px 12px;
 	font-family: 'Lato', sans-serif;
 	font-weight:700;
-	text-transform:uppercase;
     border-bottom:1px solid rgba(0,0,0,0);
-    font-size: 12px;
+    font-size: 17px;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -753,7 +834,7 @@ top: 0;
 
 
 .just_pattern { 
-	background-image: url(../images/pattern.png); 
+	background-image: url(../images/gallery/6.jpg); 
 	position: absolute; 
 	opacity: 0.8; 
 	left: 0px;
@@ -849,9 +930,10 @@ top: 0;
 .header-text p{
 	padding-top:60px;
 	text-align:center;
-	opacity:.6;
+	opacity:1.6;
 	/* text-transform:uppercase; */
 	z-index:200;
+	font-size: medium;
 } 
 .header-shadow-text{
 	position: absolute; 
@@ -968,6 +1050,7 @@ top: 0;
 	text-align:left;
 	font-size: 17px; 
 	line-height:17px;
+	color: #d4c1a3;
 }
  
  
@@ -1081,7 +1164,12 @@ top: 0;
 	width: 100%;
 	overflow:hidden;
 } 
- 
+ .image-block{
+	 background: url('../images/4.jpg') ;
+	background-size: cover;
+	width: 100%;
+	height: 690px;
+ }
  
  
   .parallax {
@@ -2304,17 +2392,23 @@ html[xmlns] .slides {display: block;}
  /* #Separator 2
 ================================================== */
 
+.image-block{
+	background: url('../images/gallery/l.jpg') ;
+	background-size: cover;
+	height: 400px;
 
-#sep2{
+}
+
+ /* #sep2{
 	position: relative; 
 	margin: 0 auto;
 	width: 100%;
 	overflow:hidden;
 	padding-top:100px;
 	padding-bottom:100px;
-} 
- 
- 
+}  */
+  
+  
  
   .parallax2 {
 	background: url('../images/66.jpg') repeat fixed;
@@ -2675,6 +2769,7 @@ html[xmlns] .slides {display: block;}
  /* #Contact
 ================================================== */
 
+
 #contact{
 	position: relative; 
 	margin: 0 auto;
@@ -2683,6 +2778,7 @@ html[xmlns] .slides {display: block;}
 	padding-top:60px;
 	padding-bottom:60px;
 	z-index:2;
+	background-color:#f2f2f2;
 }  
  
 	#ajax-form {
