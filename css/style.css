@@ -1001,7 +1001,10 @@ section.services-block-section {
   section.services-block-section .title-section {
     text-align: left; }
     section.services-block-section .title-section p {
-      margin-top: 40px; }
+      margin-top: 40px;
+      font-family: "Futura-Light";
+    
+    }
   section.services-block-section .block-post {
     overflow: hidden;
     position: relative;
@@ -1022,7 +1025,9 @@ section.services-block-section {
       justify-content: center; }
       section.services-block-section .block-post .block-content .inner-content p {
         color: #999999;
-        margin-bottom: 0; }
+        margin-bottom: 0; 
+        font-family: "Futura-Light";
+      }
       section.services-block-section .block-post .block-content .inner-content h2 {
         color: #fff; }
   section.services-block-section .block-post.right-align {
