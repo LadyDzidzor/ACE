@@ -418,11 +418,11 @@ section.page-banner-section {
    */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section {
-      background: #111 url("../images/gallery/d2.jpg") center center no-repeat;
+      background: #111 url("../images/gallery/a7.jpg") center center no-repeat;
       background-size: cover; } }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     section.page-banner-section {
-      background: #111 url("../images/gallery/d2.jpg") center center no-repeat;
+      background: #111 url("../images/gallery/a7.jpg") center center no-repeat;
       background-size: cover; } }
   section.page-banner-section .page-banner-box {
     padding: 140px 0 90px; }
