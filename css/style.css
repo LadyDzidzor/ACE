@@ -82,6 +82,32 @@ a, .anchor {
 /*------------------------------------------------- */
 /* =  Header
  *------------------------------------------------- */
+
+/* Logo */
+.logo{
+	position:absolute;
+	width:162px;
+	height:63px;
+	z-index:10000;
+	left:121px;
+	top:14px;
+	background:url('../images/logos/logo4a.png') no-repeat center center;
+	/* background-size:146px 80px; */
+	background-size:162px 63px;
+}
+@media only screen and (max-width: 800px) {
+    .logo{
+	width:130px;
+	height:50px;
+	left:10px;
+	top:10px;
+	/* background:url('../images/logo.png') no-repeat center center; */
+	background-size:91px 43px;
+}
+  }
+/*  */
+
+
 header {
   padding: 0 40px;
   position: fixed;
@@ -108,8 +134,8 @@ header {
     .navbar a.navbar-brand img {
       margin-bottom: 5px; }
 
-header.active {
-  background: #232323 !important; }
+/* header.active {
+  background: #232323 !important; } */
 
 .navbar-nav {
   transition: all 0.2s ease-in-out;
@@ -418,11 +444,11 @@ section.page-banner-section {
    */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section {
-      background: #111 url("../images/gallery/a7.jpg") center center no-repeat;
+      background: #111 url("../images/gallery/d33.jpg") center center no-repeat;
       background-size: cover; } }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     section.page-banner-section {
-      background: #111 url("../images/gallery/a7.jpg") center center no-repeat;
+      background: #111 url("../images/gallery/d33.jpg") center center no-repeat;
       background-size: cover; } }
   section.page-banner-section .page-banner-box {
     padding: 140px 0 90px; }

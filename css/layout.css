@@ -431,9 +431,9 @@ text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important; letter-spacing: 0;}
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:116px;
-	height:60px;
-	/* background:url('../images/logo.png') no-repeat center center; */
-	background-size:116px 60px;
+	height:45px;
+	background:url('../images/logos/logo4.png') no-repeat center center;
+	background-size:116px 45px;
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
@@ -473,14 +473,14 @@ ul.slimmenu li ul {
 
 .logo{
 	position:absolute;
-	width:146px;
-	height:80px;
+	width:162px;
+	height:63px;
 	z-index:10000;
 	left:10px;
 	top:10px;
-	background:url('../images/gallery/ACE-t.png') no-repeat center center;
+	background:url('../images/logos/logo3a.png') no-repeat center center;
 	/* background-size:146px 80px; */
-	background-size:157px 99px;
+	background-size:162px 63px;
 }
 
 
@@ -3106,15 +3106,15 @@ h1 { font-size: 28px; line-height:28px; }
 	left:10px;
 	top:10px;
 	/* background:url('../images/logo.png') no-repeat center center; */
-	background-size:80px 50px;
+	background-size:77px 43px;
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:80px;
 	height:50px;
 	left:10px;
 	top:10px;
-	/* background:url('../images/logo.png') no-repeat center center; */
-	background-size:80px 50px;
+	background:url('../images/logos/logo4a.png') no-repeat center center;
+	background-size:77px 43px;
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
