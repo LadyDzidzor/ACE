@@ -649,6 +649,7 @@ section.services-block-section {
         color: #797979;
         margin-bottom: 0; 
         font-family: "Myriad pro";
+        text-align: justify;
       }
       section.services-block-section .block-post .block-content .inner-content h2 {
         color: #fff; }
