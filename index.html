@@ -156,16 +156,24 @@
 							market while offering daring African businesses the same opportunity to reach a global audience.<br><br>
 							
 							At ACE Limited, we have taken management and marketing consulting in Africa to a whole new level by recruiting only the
-							best platinum certified professionals and ensuring the highest global standards in our service delivery.
+							best platinum certified professionals and ensuring the highest global standards in our service delivery<span id="dots">...</span>
+							<span id="more">
 							Headquartered in Port Louis, Mauritius, ACE is strategically positioned to serve clients across Africa and beyond with a reliable team
-							of experts stationed all over the world to entrench great client and stakeholder relations.<br><br>
+							of experts stationed all over the world to entrench great client and stakeholder relations.
 							
 							Due to our deep understanding of both African and global markets, our experts leverage years of experience working
 							across these territories to offer clients unparalleled value even in extreme and challenging business environments. This
 							guarantees our clients a competitive edge and ease in entering new markets and steadily growing their footprints, reach
-							and influence in the most relevant, ethical, legal and sustainable way.</p>
+							and influence in the most relevant, ethical, legal and sustainable way.</span></p>
+								<p onclick="myFunction()" id="Btn-txt" style="color: #cfa144; text-align: center;">Read
+									more</p>
+							
 						</div>
 					</div>
+						
+						
+					
+				
 				</div>
 			
 				
@@ -221,7 +229,7 @@
 					</div>
 
 					<div class="hello">
-				<a href="services.html" class="button7" style="background-color:#363636;; color:#cfa144">Read More</a>
+				<a href="services.html" class="button7" style="background-color:#363636; color:#cfa144">Read More</a>
 				</div>
 			</div>
 
@@ -310,6 +318,24 @@
 
 	
 	<!-- javascript -->
+<script>
+	function myFunction() {
+		var dots = document.getElementById("dots");
+		var moreText = document.getElementById("more");
+		var btnText = document.getElementById("Btn-txt");
+
+		if (dots.style.display === "none") {
+			dots.style.display = "inline";
+			btnText.innerHTML = "Read more";
+			moreText.style.display = "none";
+		} else {
+			dots.style.display = "none";
+			btnText.innerHTML = "Read less";
+			moreText.style.display = "inline";
+		}
+	}
+</script>
+
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>	 
