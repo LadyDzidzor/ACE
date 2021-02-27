@@ -257,13 +257,17 @@ text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important; letter-spacing: 0;}
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:116px;
-	height:45px;
+	height:60px;
 	background:url('../images/logos/ACE-black.png') no-repeat center center;
-	background-size:56px 65px;
+	background-size:76px 85px;
 	-webkit-transition : all 0.5s ease-out;
 	-moz-transition : all 0.5s ease-out;
 	-o-transition :all 0.5s ease-out;
 	transition : all 0.5s ease-out;
+}
+
+.cbp-af-header.cbp-af-header-shrink .scroll{
+	color:black;
 }
 
 .cbp-af-header.cbp-af-header-shrink ul.slimmenu {
@@ -383,7 +387,8 @@ ul.slimmenu > li:first-child { border-left: 0 }
 ul.slimmenu > li:last-child { margin-right: 0 }
 ul.slimmenu li a {
     display: block;
-    color: #000000b3;
+	color: #ffffff;
+	font-weight: 500;
     padding: 10px 0px;
 	cursor:pointer;
     margin: 0px 12px;
@@ -713,6 +718,7 @@ top: 0;
 	width: 100%;
 	text-align:center;
 	z-index:200;
+	font-size:47px ;
 }
 .header-text p{
 	padding-top:60px;
@@ -743,6 +749,7 @@ top: 0;
 #about-what-we-do{
 	position: relative; 
 	margin: 0 auto;
+	
 	width: 100%;
 	overflow:hidden;
 	z-index:2;
@@ -771,7 +778,18 @@ top: 0;
 	width:22px;
 	height:32px;
 }
-  
+  .img-left{
+	  display: inline;
+	  width: auto;
+	  height: auto;
+	  line-height: normal;
+	  vertical-align: baseline;
+	  background-image:none;
+	  background-position: 0% 0%;
+	  background-repeat:repeat;
+	  margin-top: 0;
+
+	}
 
  /* #Team
 ================================================== */
@@ -815,7 +833,10 @@ top: 0;
 @media only screen and (min-width: 1930px) { .parallax { background-size: cover; } }
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
+	
 }
+
+
 @media only screen and (max-width: 959px) {
 	.parallax { background-size: cover; background-attachment: scroll; background-position: top center!important; }
 }
@@ -1421,7 +1442,8 @@ top: 0;
 
 .section-box{
 	position: relative;
-	width: 1288px;
+	width: 90%;
+	align-self: center;
 	margin: 0 auto;
 	padding:0px;
 }
@@ -1495,6 +1517,22 @@ top: 0;
 		 width:300px;
 	 }
  }
+
+ @media only screen and (min-width: 500px) and (max-width: 1023px){
+	 .section-box .boxet{
+		 margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+	 }
+	 .section-box{
+		 width:300px;
+		 
+	 }
+ }
+
+
   
  /* #Logos
 ================================================== */
@@ -1529,8 +1567,8 @@ top: 0;
 	}
 	label {
 		display: block;
-		font-family: 'OpenSans-Light-webfont';
-		font-size: 14px;
+		font-family: 'Myriad pro';
+		font-size: 15px;
 		line-height:30px;
 	}
 	input{
@@ -1735,7 +1773,11 @@ top: 0;
 
 
 @media only screen and (max-width: 800px) {
-h1 { font-size: 28px; line-height:28px; }
+h1 { font-size: 28px; 
+	line-height:28px;
+	font-size: 32px !important;
+
+}
 .header-text p{
 	padding-top:50px;
 } 
@@ -1758,7 +1800,7 @@ h1 { font-size: 28px; line-height:28px; }
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
 	width:98px;
-	height:50px;
+	height:46px;
 	left:10px;
 	top:10px;
 	background:url('../images/logos/ACE-black.png') no-repeat center center;
@@ -1805,7 +1847,7 @@ ul.slimmenu li > ul {
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
 .big-text { 
 	margin-top:-20px;
-	font-size: 50px; 
+	font-size: 34px; 
 	line-height:50px; 
 }
 .video-section-2  h5{
