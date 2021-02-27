@@ -3,8 +3,8 @@
 /* Code by David McKeown - craftedbydavid.com */
 /* Editable entries are bellow */
 
-$send_to = "mail@server.com";
-$send_subject = "Ajax form ";
+$send_to = "ibrahim@africacommerceeagle.com";
+$send_subject = "Customer Contact - ACE";
 
 
 
@@ -27,13 +27,13 @@ function cleanupentries($entry) {
 $message = "This email was submitted on " . date('m-d-Y') . 
 "\n\nName: " . $f_name . 
 "\n\nE-Mail: " . $f_email . 
-"\n\nMessage: \n" . $f_message . 
-"\n\n\nTechnical Details:\n" . $from_ip . "\n" . $from_browser;
+"\n\nMessage: \n" . $f_message; //. 
+//"\n\n\nTechnical Details:\n" . $from_ip . "\n" . $from_browser;
 
 $send_subject .= " - {$f_name}";
 
-$headers = "From: " . $f_email . "\r\n" .
-    "Reply-To: " . $f_email . "\r\n" .
+$headers = "From: " . "ACE Contact Us <info@africacommerceeagle.com>". "\r\n" .
+    "Reply-To: " . "info@africacommerceeagle.com" . "\r\n" .
     "X-Mailer: PHP/" . phpversion();
 
 if (!$f_email) {
