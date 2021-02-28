@@ -70,6 +70,7 @@
 	text-align: center;
 }
 
+
 .button7{
 	display:inline-block;
 	padding:0.7em 1.7em;
@@ -530,6 +531,7 @@ ul.slimmenu.collapsed li > ul {
 .big-text span{ 
 	padding-top:15px;
 	padding-bottom:25px;
+	line-height: 1;
 	/* border-top:1px solid #fff; */
 	/* border-bottom:1px solid #fff; */
 	
@@ -764,7 +766,7 @@ top: 0;
 }
 #about-what-we-do p{
 	text-align:left;
-	font-family: "Futura-Light";
+	font-family: "Myriad Pro";
 	font-size: medium;
 }
 .icon-left1{
@@ -1964,6 +1966,270 @@ ul.slimmenu li > ul {
 }
 }
 
+
+
+/* new feature */
+
+.feature {
+  text-align: center;
+}
+
+@media (min-width: 40em) {
+  .feature {
+    text-align: left;
+  }
+}
+
+.feature__intro {
+  margin-bottom: 3.75rem;
+}
+
+@media (min-width: 64em) {
+  .feature__intro {
+    width: 60%;
+  }
+}
+
+@media (min-width: 40em) {
+  .feature__grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.feature__item {
+  padding: 0.9375rem;
+ 
+}
+
+@media (min-width: 40em) {
+  .feature__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 64em) {
+  .feature__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+.feature__icon {
+  
+}
+
+@media (min-width: 64em) {
+  .feature__icon {
+    
+  }
+}
+
+.feature__title {
+  font-size: 16px;
+  display: inline;
+font-family: "Sifonn-Basic";
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: #2d314d;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 64em) {
+  .feature__title {
+	font-size: 1.5rem;
+	font-size: 16px;
+	font-family: "Sifonn-Basic";
+	margin-bottom: 1.5rem;
+	
+	
+  }
+}
+
+.feature__description {
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.containers {
+  max-width: 84.375rem;
+  margin: 0 auto;
+}
+
+.containers--pall {
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
+}
+
+@media (min-width: 64em) {
+  .containers--pall {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.containers--py {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+
+@media (min-width: 64em) {
+  .containers--py {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.containers--px {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.containers--pt {
+  padding-top: 4.375rem;
+}
+
+@media (min-width: 64em) {
+  .containers--pt {
+    padding-top: 6rem;
+  }
+}
+
+.containers--pr {
+  padding-right: 1.5rem;
+}
+
+.containers--pb {
+  padding-bottom: 4.375rem;
+}
+
+@media (min-width: 64em) {
+  .containers--pb {
+    padding-bottom: 6rem;
+  }
+}
+
+.containers--pl {
+  padding-left: 1.5rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.has-fade {
+  visibility: hidden;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  -webkit-animation: fade-in 200ms ease-in-out forwards;
+          animation: fade-in 200ms ease-in-out forwards;
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    visibility: visible;
+    opacity: 1;
+  }
+  99% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  -webkit-animation: fade-out 200ms ease-in-out forwards;
+          animation: fade-out 200ms ease-in-out forwards;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
 
 
 /* #Font-Face
