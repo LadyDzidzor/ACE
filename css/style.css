@@ -137,7 +137,7 @@ a, .anchor {
 .big-text { 
 	position: absolute; 
 	left:0;
-	top:10%;
+	top:35%;
 	
 	width:100%;
 	font-family: 'Sifonn-Basic';
@@ -227,13 +227,13 @@ ul.slimmenu li ul {
 .logo{
 	position: relative;
 	width:162px;
-	height:63px;
+	height:72px;
 	z-index:10000;
 	left:10px;
 	top:10px;
 	background:url('../images/logos/ACE-it.png') no-repeat center center;
 	/* background-size:146px 80px; */
-	background-size:85px 90px;
+	background-size:98px 95px;
 }
 
 
@@ -599,7 +599,7 @@ header {
 
 
 section.page-banner-section {
-  padding: 150px 0 50px;
+  padding: 338px 0 50px;
   /*
    * Set a counter and get the length of the image path.
    */
@@ -956,7 +956,7 @@ section.services-block-section {
       section.services-block-section .block-post .block-content .inner-content p {
         color: #404040;
         margin-bottom: 0; 
-        font-family: initial;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         font-size: 16px;
       }
