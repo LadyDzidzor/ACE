@@ -1,4 +1,4 @@
-/* 
+
 
 
 
@@ -9,13 +9,14 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("colors/color-gold.css");
 
 @font-face{
   src:url(font/GOTHIC.TTF);
   font-family: Gothic;
 }
-@import url("colors/color-gold.css");
+
 
 
 /* #Panel
@@ -83,7 +84,7 @@
 	border-radius: 0.2em;
 	box-sizing: border-box;
 	text-decoration:none;
-	font-family:'Roboto', san-serif;
+	font-family:'Gothic', san-serif;
 	font-weight: 400;
 	color:#FFFFFF;
 	background-color: #3369ff;
@@ -1592,7 +1593,7 @@ top: 0;
 		height:22px;
 		margin-top:2px;
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 24px;
 		border:none;
 	background: #fff;
 	}
@@ -1626,7 +1627,7 @@ top: 0;
 	padding-top:0;
 	margin-top:32px;
 	text-align:center;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Gothic', sans-serif;
 	font-weight:700;
 	font-size: 13px;
 	line-height:43px;
