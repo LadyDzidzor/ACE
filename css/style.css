@@ -558,7 +558,7 @@ header {
   margin-bottom: 50px;
   position: relative; }
   .title-section p {
-    font-size: 16px;
+    font-size: 14px;
     color: #434242; }
   .title-section span {
     display: inline-block;
@@ -954,7 +954,7 @@ section.services-block-section {
         margin-bottom: 0; 
         font-family: 'Gothic', sans-serif;
         text-align: justify;
-        font-size: 16px;
+        font-size: 14px;
       }
       section.services-block-section .block-post .block-content .inner-content h2 {
         color: #fff; }
