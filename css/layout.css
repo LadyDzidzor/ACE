@@ -1584,7 +1584,7 @@ top: 0;
 		border:none;
 		font-family: 'Gothic', sans-serif;
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 11px;
 	background:#fff;
 	}
 	textarea {
@@ -1623,7 +1623,7 @@ top: 0;
 	}
 #button-con button{
 	width:100%;
-	height:36px;
+	height:40px;
 	padding-top:0;
 	margin-top:32px;
 	text-align:center;
