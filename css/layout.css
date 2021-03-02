@@ -734,7 +734,7 @@ top: 0;
 	/* text-transform:uppercase; */
 	z-index:200;
 	font-size: 16px;
-font-family: 'Gothic', sans-serif;
+   font-family: 'Gothic';
 	line-height: 1.5;
 } 
 .header-shadow-text{
@@ -1581,7 +1581,7 @@ font-family: 'Gothic', sans-serif;
 	input{
 		width: 96%;
 		border:none;
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Gothic', sans-serif;
 		padding-top: 10px;
 		padding-bottom: 10px;
 	background:#fff;
@@ -1787,6 +1787,7 @@ h1 { font-size: 28px;
 }
 .header-text p{
 	padding-top:50px;
+	font-family: 'Gothic';
 } 
 .header-shadow-text{
 	margin-top:-20px;
