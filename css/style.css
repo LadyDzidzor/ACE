@@ -1,7 +1,12 @@
 
-@font-face{
+/* @font-face{
 	src: url(font/MYRIADPRO-REGULAR.OTF);
 	font-family: Myriad pro;
+} */
+
+@font-face{
+  src:url(font/GOTHIC.TTF);
+  font-family: Gothic;
 }
 
 @font-face{
@@ -923,7 +928,7 @@ section.services-block-section {
     text-align: left; }
     section.services-block-section .title-section p {
       margin-top: 40px;
-     font-family: 'Montserrat', sans-serif;  
+     font-family: 'Gothic', sans-serif;  
      text-align: justify;  
     }
   section.services-block-section .block-post {
@@ -947,7 +952,7 @@ section.services-block-section {
       section.services-block-section .block-post .block-content .inner-content p {
         color: #404040;
         margin-bottom: 0; 
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Gothic', sans-serif;
         text-align: justify;
         font-size: 16px;
       }
